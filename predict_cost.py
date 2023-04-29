@@ -2,5 +2,5 @@ import joblib
 
 
 def predict(data):
-    lr = joblib.load('rf.joblib')
+    lr = joblib.load('rw.joblib')
     return lr.predict(data)
